@@ -1,0 +1,50 @@
+﻿@page
+@model CartModel
+@{
+    Layout = "_CartLayout";
+}
+
+<h2>Your Cart</h2>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Quantity</th>
+            <th>Service Name</th>
+            <th class="text-right">Price</th>
+            <th class="text-right">Subtotal</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var b in Model.Cart.ListCartObjects)
+        {
+            <tr>
+                <td class="text-center">@b.Quantity</td>
+                <td class="left">@b.Service.ServiceName</td>
+                <td class="text-right">@b.Service.Price.ToString("c")</td>
+                <td class="text-right">@((b.Quantity * b.Service.Price).ToString("c"))</td>
+      
+                  <td class="text-center">
+                      <form asp-page-handler="Remove" method="post">
+                        <input type="hidden" name="ServiceID" value="@b.Service.ServiceID"/>
+                        <input type="hidden" name="returnUrl" value="b.ReturnUrl" />
+                        <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                      </form>
+
+                   </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="text-right">Total: </td>
+            <td class="text-right">@Model.Cart.TotalPrice()</td>
+        </tr>
+    </tfoot>
+</table>
+
+<div class="text-center">
+    <a class="btn btn-primary" href="@Model.ReturnUrl"> Continue Shopping</a>
+    <a class="btn btn-primary" asp-action="Checkout" asp-controller="Order">Checkout</a>
+</div>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="bg-dark text-white p-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col navbar-brand">Sweet Sounds Music School</div>
+                <div class="col-6 text-right">
+                    <vc:cart-sum></vc:cart-sum>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="row m-1 p-1">
+            <div id="categories" class="col-3">
+                <vc:nav-menu/>
+             
+
+            </div> 
+
+            <div class="col-9">
+       
+        @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<!---RenderBody() make sure contents are properly translated atrenderbody->

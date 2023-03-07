@@ -1,0 +1,14 @@
+﻿@page
+
+<div class="text-center">
+<h1>Thank you for your registering!</h1>
+<h2>Your confirmation number is #@OrderID</h2>
+
+<a class="btn btn-primary" asp-controller="Home">Return to Main Page</a>
+
+</div>
+
+@functions{
+    [BindProperty(SupportsGet =true)]
+    public string OrderID { get; set; }
+}

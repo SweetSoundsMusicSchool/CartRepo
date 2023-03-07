@@ -1,0 +1,36 @@
+﻿@model Order
+<h1>Checkout Now</h1>
+<p>Please enter your details to register.</p>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Checkout" method="post">
+    
+<div class="form-group">
+    <label>Name:</label>
+    <input asp-for="Name" class="form-control" />
+</div>
+
+
+    <div class="form-group">
+        <label>Address:</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+
+
+    <div class="form-group">
+        <label>Email:</label>
+        <input asp-for="Email" class="form-control" />
+        </div>
+
+
+        <div class="form-group">
+            <label>Phone:</label>
+            <input asp-for="Phone" class="form-control" />
+        </div>
+
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Complete Order" />
+
+      
+    </div>
+</form>

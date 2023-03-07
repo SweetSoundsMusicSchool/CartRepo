@@ -1,0 +1,29 @@
+﻿<!--Tell index page to use base layout-->
+
+@model ServicesList
+
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Sweet Sounds Music School";
+}
+
+<h1> Welcome to Sweet Sounds Music School!</h1>
+
+
+
+@foreach (var item in Model.Services)
+
+{
+    <partial name="ServicePartialView" model="item"/>
+
+}
+
+<div page-model="@Model.PageInfo" page-action="Index"
+page-classes-enabled="true"
+page-class="btn"
+page-class-normal="btn-outline-dark"
+page-class-selected="btn-primary"
+page-url-category="@Model.CurrentCategory"
+class="btn-group pull-right m-1">
+</div>
