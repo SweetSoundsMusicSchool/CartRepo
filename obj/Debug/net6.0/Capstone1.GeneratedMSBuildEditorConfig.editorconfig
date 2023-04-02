@@ -5,65 +5,64 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Capstone1
 build_property.RootNamespace = Capstone1
-build_property.ProjectDir = C:\Users\heels\source\repos\Capstone1.1\
+build_property.ProjectDir = C:\Users\Aleks\source\repos\CartRepo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\heels\source\repos\Capstone1.1
+build_property.MSBuildProjectDirectory = C:\Users\Aleks\source\repos\CartRepo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Pages/Cart.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Pages/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Pages/Complete.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Pages/Complete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Pages/_CartLayout.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Pages/_CartLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0NhcnRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Pages/_ViewImports.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Pages/_ViewStart.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Home/Index.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Order/Checkout.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Shared/Components/CartSum/Default.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Shared/Components/CartSum/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFN1bVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Shared/Components/NavMenu/Default.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Shared/Components/NavMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2TWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Shared/ServicePartialView.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Shared/ServicePartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlcnZpY2VQYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/Shared/_Layout.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/_ViewImports.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/heels/source/repos/Capstone1.1/Views/_ViewStart.cshtml]
+[C:/Users/Aleks/source/repos/CartRepo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
